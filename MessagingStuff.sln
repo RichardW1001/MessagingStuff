@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{10FC329E-EDF8-44F7-A979-4D6DACF163A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceA", "ServiceA\ServiceA.csproj", "{DC11E643-76A7-4FF4-B38B-E2E538AC6F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceB", "ServiceB\ServiceB.csproj", "{3D0FD87F-234D-4F84-ABE6-65D997819999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureServiceBusMessaging", "AzureServiceBusMessaging\AzureServiceBusMessaging.csproj", "{D9D42FD5-8C05-4199-A48F-B33A83CA1368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceC", "ServiceC\ServiceC.csproj", "{38A64276-DE3B-403E-9014-9F092C5B9833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryServiceBus", "InMemoryServiceBus\InMemoryServiceBus.csproj", "{27253712-B006-4074-8A3E-F01D6AE9986D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemService", "InMemService\InMemService.csproj", "{9167C975-39C9-47BE-9F92-14D2B320125D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10FC329E-EDF8-44F7-A979-4D6DACF163A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FC329E-EDF8-44F7-A979-4D6DACF163A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FC329E-EDF8-44F7-A979-4D6DACF163A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FC329E-EDF8-44F7-A979-4D6DACF163A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC11E643-76A7-4FF4-B38B-E2E538AC6F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC11E643-76A7-4FF4-B38B-E2E538AC6F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC11E643-76A7-4FF4-B38B-E2E538AC6F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC11E643-76A7-4FF4-B38B-E2E538AC6F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0FD87F-234D-4F84-ABE6-65D997819999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0FD87F-234D-4F84-ABE6-65D997819999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0FD87F-234D-4F84-ABE6-65D997819999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0FD87F-234D-4F84-ABE6-65D997819999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9D42FD5-8C05-4199-A48F-B33A83CA1368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9D42FD5-8C05-4199-A48F-B33A83CA1368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9D42FD5-8C05-4199-A48F-B33A83CA1368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9D42FD5-8C05-4199-A48F-B33A83CA1368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A64276-DE3B-403E-9014-9F092C5B9833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A64276-DE3B-403E-9014-9F092C5B9833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A64276-DE3B-403E-9014-9F092C5B9833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A64276-DE3B-403E-9014-9F092C5B9833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27253712-B006-4074-8A3E-F01D6AE9986D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27253712-B006-4074-8A3E-F01D6AE9986D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27253712-B006-4074-8A3E-F01D6AE9986D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27253712-B006-4074-8A3E-F01D6AE9986D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9167C975-39C9-47BE-9F92-14D2B320125D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9167C975-39C9-47BE-9F92-14D2B320125D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9167C975-39C9-47BE-9F92-14D2B320125D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9167C975-39C9-47BE-9F92-14D2B320125D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
